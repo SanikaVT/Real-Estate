@@ -179,7 +179,7 @@ It is a regression problem, where given the above set of features, we need to pr
 ##### propery_age:
 * property_age' denotes the age of the property when it was sold and not how old it is today, since we want to predict the price at the time when the property is sold.
 ##### school_score:
-* # A school score feature is created as num_schools * median_school
+* A school score feature is created as num_schools * median_school
 
 ##### One hot Encoding:
 * Machine learning algorithms cannot directly handle categorical features. Specifically, they cannot handle text values.
