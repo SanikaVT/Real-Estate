@@ -166,6 +166,8 @@ It is a regression problem, where given the above set of features, we need to pr
 * R-squared
 * Mean Absolute Error
 
+# 3.Feature Engineering
+
 ### 3.1.Features Created:
 ##### two_and_two:
 * An indicator variable to flag properties with 2 beds and 2 baths and name it 'two_and_two'.
