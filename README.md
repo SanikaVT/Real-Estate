@@ -80,8 +80,10 @@ Since this is binary classification problem, we use the following metrics:
 * The difference between launched_at and created_at gives the time in terms of number of days required to complete the project.
 ##### completion_before_deadline:
 * This features shows how early the project state is changed before the deadline.
-* Feature is created using two other features: state_changed_at and deadline.
-* The difference between state_changed_at and deadline gives the time in terms of number of days before deadline ,the state is changed.
+* Feature is created using two other features: launched_at and deadline.
+* The difference between deadline and launched_at gives how early the project is launched before the deadline.
+##### time_to_change_the_status:
+* One more feature is created which gives the number of days in which the status of the project changes after it is launched
 
 ### 3.2.Features Removed:
 * Features such as project_id, description, name, keywords and other unused features are removed.
